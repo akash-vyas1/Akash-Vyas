@@ -71,7 +71,7 @@ body section {
 
 .all .certs {
     /* border: 2px solid red; */
-    min-width: 330px;
+    min-width: 300px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ body section {
 
 .cert img{
     /* border: 2px solid green; */
-    min-width: 300px;
+    min-width: 250px;
     max-width: 650px;
     height: 480px;
     /* margin-left: 100px; */
@@ -135,7 +135,7 @@ body section {
     }
 }
 
-@media screen and (max-width:950px) and (min-width:300px) {
+@media screen and (max-width:950px) and (min-width:250px) {
     .certs{
         /* border: 2px solid red; */
         margin-top: 20px;

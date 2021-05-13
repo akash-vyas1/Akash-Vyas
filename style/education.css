@@ -75,7 +75,6 @@ body section {
     max-height: min-content;
     padding: 10px 20px;
     margin: 30px 25px;
-    background: var(--headback);
     box-shadow: 6px 6px 10px rgba(1, 12, 27, 0.7);
     background: radial-gradient(rgb(51, 139, 127),rgb(16, 78, 63));
     transition: 0.2s ease-in-out;
@@ -129,13 +128,47 @@ body section {
     font-size: 17px;
 }
 
+.year{
+    padding: 0 !important;
+}
+
 .education .container .card:hover {
     transform: scale(1.03);
 }
 
-@media (min-width:350px) and  (max-width:800px) {
+@media (min-width:250px) and  (max-width:800px) {
     .container {
         /* border: 2px solid red; */
         margin-top: 55px !important;
     }
+}
+
+@media (min-width:250px) and  (max-width:450px) {
+    .education{
+        /* border: 2px solid blue; */
+        width: 100%;
+    }
+    .education .container{
+        /* border: 2px solid green; */
+        width: 100%;
+        padding: 0;
+    }
+
+    .education .container .card{
+        min-height: max-content;
+        /* border: 2px solid red; */
+        /* margin: 30px 15px; */
+    }
+    .education .container .card h2 {
+        font-size: 25px;
+        height: 40px;
+        top: -30px;
+    }
+    .education .container .card .contentbox .text span{
+        font-size: 16px;
+    }
+    .education .container .card .contentbox .text .val{
+        font-size: 15px;
+    }
+
 }
