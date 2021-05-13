@@ -145,22 +145,24 @@ body section {
 
 @media (min-width:250px) and  (max-width:450px) {
     .education{
-        /* border: 2px solid blue; */
-        width: 100%;
+        border: 2px solid blue;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .education h2{
         font-size: 35px;
     }
     .education .container{
         /* border: 2px solid green; */
-        width: 100%;
         padding: 0;
     }
 
     .education .container .card{
         min-height: max-content;
         /* border: 2px solid red; */
-        /* margin: 30px 15px; */
+        /* margin: 30px 40px; */
     }
     .education .container .card h2 {
         font-size: 25px;
