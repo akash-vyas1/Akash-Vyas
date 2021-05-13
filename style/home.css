@@ -239,22 +239,26 @@ img{
         width: 90% !important;
     }
     .home-right-logo{
-        font-size: 255px;
+        font-size: 250px;
         text-align: center;
     }
     .home-left{
         justify-content: center !important;
     }
     .home-left-hello{
-        font-size: 30px;
+        font-size: 28px;
     }
     .home-left-name{
         text-align: center;
-        font-size: 80px;
+        font-size: 70px;
     }
     .home-left-para{
         text-align: center;
         /* border: 2px solid gold; */
-        font-size: 17px;
+        font-size: 16px;
+    }
+    .home-left-img{
+        width: 155px;
+        height: 100px;
     }
 }

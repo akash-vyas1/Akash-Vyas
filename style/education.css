@@ -148,6 +148,9 @@ body section {
         /* border: 2px solid blue; */
         width: 100%;
     }
+    .education h2{
+        font-size: 35px;
+    }
     .education .container{
         /* border: 2px solid green; */
         width: 100%;
