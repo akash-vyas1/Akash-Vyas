@@ -7,7 +7,23 @@
 	"settings": {
 		"git.ignoreLimitWarning": true,
 		"cSpell.words": [
-			"CGPA"
+			"CGPA",
+			"Hoverback",
+			"Initialen",
+			"Linkcolor",
+			"allcp",
+			"allprojects",
+			"bodyback",
+			"bodyfont",
+			"celadonblue",
+			"footerback",
+			"headback",
+			"langlogo",
+			"linkhovercolor",
+			"linksback",
+			"menubtn",
+			"textcolor",
+			"toplinks"
 		]
 	}
 }

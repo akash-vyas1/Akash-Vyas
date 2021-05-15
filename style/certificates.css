@@ -1,45 +1,4 @@
-:root {
 
-    --blue: #3d5a80ff;
-    --cerulean: #98c1d9ff;
-    --cyan: #e0fbfcff;
-    --sienna: #ee6c4dff;
-    --gunmetal: #293241ff;
-
-    --red: #e63946ff;
-    --lightblue: #f1faeeff;
-    --powderblue: #a8dadcff;
-    --celadonblue: #457b9dff;
-    --prussianblue: #1d3557ff; 
-}
-
-@font-face {
-    font-family: breadlySansFont;
-    src: url(../font/BreadleySans-Regular.ttf);
-}
-@font-face {
-    font-family: breadlySerifFont;
-    src: url(../font/BreadleySerif-Regular.ttf);
-}
-@font-face {
-    font-family: aubreyFont;
-    src: url(../font/AUBREY1__.TTF);
-}
-@font-face {
-    font-family: royalFont;
-    src: url(../font/RoyalInitialen.ttf);
-}
-
-body section {
-    /* border: 2px solid black; */
-    /* height: 510px; */
-    padding: 10px;
-    margin-top: 75px;
-    box-sizing: border-box;
-    overflow: auto;
-    border-radius: 7px;
-    width: 90%;
-}
 .certificates {
     padding: 0;
 }

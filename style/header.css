@@ -1,31 +1,5 @@
+@import url("color_font_details.css");
 @import url("../all.css");
-@font-face {
-    font-family: logoFont;
-    src: url("fonts/AUBREY1__.TTF");
-}
-
-@font-face {
-    font-family: bodyfont;
-    src: url("fonts/Garamond\ Bold\ font.ttf");
-}
-
-@font-face {
-    font-family: headlinefont;
-    src: url("fonts/Garamond\ Bold\ font.ttf");
-}
-
-@font-face {
-    font-family: contentfont;
-    src: url("fonts/GARAM.ttf");
-}
-
-:root {
-    --back: #e9585e;
-    --menutext: #1d2541;
-    --linksback: #3d5089;
-    --line: #5f70b2;
-    --linkhovercolor: lawngreen;
-}
 
 .header {
     width: 100%;
