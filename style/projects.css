@@ -74,7 +74,7 @@ body section {
 }
 
 .all .allprojects .project {
-    min-width: 325px;
+    min-width: 250px;
     max-width: 850px;
     min-height: 300px;
     /* padding: 10px; */
@@ -178,4 +178,40 @@ body section {
 
 .github {
     padding-bottom: 10px !important;
+}
+
+@media screen and (min-width:375px) and (max-width:500px) {
+    .all .allprojects .project p{
+        font-size: 18px;
+    }
+    .all .allprojects .project span{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:275px) and (max-width:375px) {
+    .all .allprojects .project p{
+        font-size: 17px;
+    }
+    .all .allprojects .project span{
+        font-size: 16px;
+    }
+    .all .allprojects .project .techs ul li a{
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:275px) and (max-width:330px) {
+    .all .allprojects .project{
+        min-width: 200px;
+    }
+    .all .allprojects .project p{
+        font-size: 15px;
+    }
+    .all .allprojects .project span{
+        font-size: 14px;
+    }
+    .all .allprojects .project .techs ul li a{
+        font-size: 22px;
+    }
 }

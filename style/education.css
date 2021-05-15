@@ -143,6 +143,12 @@ body section {
     }
 }
 
+@media (min-width:250px) and  (max-width:350px) {
+    .education{
+        width: 100% !important;
+    }
+}
+
 @media (min-width:250px) and  (max-width:450px) {
     .education{
         /* border: 2px solid blue; */
