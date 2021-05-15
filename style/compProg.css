@@ -199,3 +199,9 @@
         padding: 0 !important;
     }
 }
+
+@media  screen and (max-width:500px) and (min-width:240px) {
+    .all .allcp .container{
+        width: 85%;
+    }
+}
