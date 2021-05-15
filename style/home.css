@@ -28,8 +28,8 @@
 .home-left-hello {
     /* border: 2px solid blue; */
     /* width: max-content; */
-    font-size: 45px;
-    font-family: breadlySansfFont;
+    font-size: 55px;
+    font-family: breadlySerifFont;
     /* color: rgb(2, 20, 34); */
     color: #4c5c68;
     position: relative;
@@ -86,11 +86,11 @@
     /* height: 90%; */
     width: 350px;
     overflow: hidden;
-    position: relative;
-    top: 20;
+    /* position: relative;
+    top: 20; */
     border-radius: 40px;
     margin: 15px 0;
-    line-height: 1;
+    /* line-height: 1; */
     background: radial-gradient( rgb(63, 100, 148)  ,rgb(18, 37, 63));
 }
 
@@ -171,7 +171,7 @@ img{
         justify-content: center !important;
     }
     .home-left-hello{
-        font-size: 35px;
+        font-size: 40px;
     }
     .home-left-name{
         font-size: 100px;
@@ -199,7 +199,7 @@ img{
         justify-content: center !important;
     }
     .home-left-hello{
-        font-size: 28px;
+        font-size: 40px;
     }
     .home-left-name{
         text-align: center;
