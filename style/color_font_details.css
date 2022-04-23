@@ -27,11 +27,6 @@
 }
 
 @font-face {
-    font-family: logoFont;
-    src: url("../font/AUBREY1__.TTF");
-}
-
-@font-face {
     font-family: breadlySansFont;
     src: url(../font/BreadleySans-Regular.ttf);
 }

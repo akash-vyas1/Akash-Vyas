@@ -46,7 +46,7 @@ body section {
 
 
 body::-webkit-scrollbar {
-    width: 15px;
+    width: 13px;
 }
 body::-webkit-scrollbar-track {
     background: none;
@@ -55,9 +55,9 @@ body::-webkit-scrollbar-corner {
     background: var(--blue);
 }
 body::-webkit-scrollbar-thumb {
-    border-radius: 5px;
+    border-radius: 4px;
     background: var(--prussianblue);
-    background: linear-gradient(rgb(81, 119, 170),rgb(32, 59, 95));
+    background: linear-gradient(var(--blue),var(--prussianblue));
 }
 
 
